@@ -1,1 +1,2 @@
+#cmakedefine USE_GoogleTest
 #cmakedefine USE_func

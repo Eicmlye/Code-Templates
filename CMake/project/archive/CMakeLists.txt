@@ -5,7 +5,7 @@
 ## +--- func.cpp
 
 # Include source files;
-AUX_SOURCE_DIRECTORY(. LIB_SRC_LIST)
+AUX_SOURCE_DIRECTORY(. ACV_SRC_LIST)
 
 # Generate static libs;
-ADD_LIBRARY(func ${LIB_SRC_LIST})
+ADD_LIBRARY(func ${ACV_SRC_LIST})
